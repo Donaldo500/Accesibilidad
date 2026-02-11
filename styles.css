@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+body header a {
+  text-decoration: none;
+  color: inherit;
+}
+body header svg {
+  width: 50px;
+  height: 100%;
+  align-self: center;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+body main #bar {
+  all: unset;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 2px solid rgb(255, 255, 255);
+  max-width: 400px;
+  width: 100%;
+  align-self: center;
+}
+body main .products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 15px;
+}
+body main .products article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body main .products article img {
+  max-width: 200px;
+  height: 100%;
+  align-self: center;
+}
+body main .products article h2 {
+  text-align: center;
+  margin: 0;
+}
+body main .products article p {
+  text-align: center;
+  margin: 0;
+}/*# sourceMappingURL=styles.css.map */
